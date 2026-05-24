@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: inaturalist-mcp
+    plan: free
+    runtime: image
+    image:
+      url: ghcr.io/cssnr/inaturalist-mcp:latest
+    #dockerCommand: npm start
+    #healthCheckPath: /app-health-check
