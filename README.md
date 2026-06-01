@@ -1,6 +1,8 @@
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/inaturalist-mcp?logo=github)](https://github.com/cssnr/inaturalist-mcp/releases/latest)
+[![PyPI Version](https://img.shields.io/pypi/v/inaturalist-mcp?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/inaturalist-mcp/)
 [![Image Latest](https://badges.cssnr.com/ghcr/tags/cssnr/inaturalist-mcp/latest)](https://github.com/cssnr/inaturalist-mcp/pkgs/container/inaturalist-mcp)
 [![Image Size](https://badges.cssnr.com/ghcr/size/cssnr/inaturalist-mcp)](https://github.com/cssnr/inaturalist-mcp/pkgs/container/inaturalist-mcp)
+[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/inaturalist-mcp/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/inaturalist-mcp/)
 [![Workflow Build](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/build.yaml?logo=norton&logoColor=white&label=build)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/build.yaml)
 [![Workflow Deploy](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/deploy.yaml?logo=norton&logoColor=white&label=deploy)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/deploy.yaml)
 [![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/release.yaml?logo=norton&logoColor=white&label=release)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/release.yaml)

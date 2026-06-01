@@ -17,7 +17,7 @@ on:
       dev:
         description: "Development Build"
         type: boolean
-        default: true
+        default: false
   workflow_dispatch:
     inputs: *inputs
   #release:

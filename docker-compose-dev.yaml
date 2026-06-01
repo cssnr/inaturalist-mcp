@@ -37,7 +37,7 @@ services:
       watch:
         - action: sync
           path: ./src
-          target: /app/src
+          target: /app
         - action: rebuild
           path: ./pyproject.toml
         - action: rebuild
