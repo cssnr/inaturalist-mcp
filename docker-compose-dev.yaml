@@ -31,14 +31,17 @@ services:
         limits:
           cpus: "2.0"
           memory: 256M
-    #volumes:
-    #  - ${APP_FILES:-./src}:/app/src
     develop:
       watch:
         - action: sync
           path: ./src
-          target: /app/src
+          target: /app
         - action: rebuild
           path: ./pyproject.toml
         - action: rebuild
           path: ./docker-compose-dev.yaml
+    volumes:
+      - data_dir:/data
+
+volumes:
+  data_dir:

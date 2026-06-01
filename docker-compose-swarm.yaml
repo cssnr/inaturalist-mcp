@@ -38,6 +38,8 @@ services:
       VERSION: ${VERSION}
       STACK_NAME: ${STACK_NAME}
       TRAEFIK_HOST: ${TRAEFIK_HOST}
+      # NOTE: We have to re-define the defaults to allow passthrough - thanks portainer
+      HISHEL_CACHE_PATH: ${HISHEL_CACHE_PATH:-/data/hishel_cache.db}
     deploy:
       replicas: 1
       resources:
@@ -52,9 +54,14 @@ services:
     #  start_period: 30s
     networks:
       - internal
+    volumes:
+      - data_dir:/data
 
 networks:
   internal:
     driver: overlay
   traefik-public:
     external: true
+
+volumes:
+  data_dir:

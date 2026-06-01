@@ -26,9 +26,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
-    #environment:
-    #  name: swarm
-    #  url: https://inaturalist-mcp.cssnr.com/
+    environment:
+      name: swarm
+      url: https://inaturalist-mcp.cssnr.com/
 
     steps:
       - name: "Checkout"
