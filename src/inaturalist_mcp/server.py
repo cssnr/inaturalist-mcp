@@ -80,5 +80,4 @@ def main():
     mcp.run(transport="stdio")
 
 
-
 app = mcp.streamable_http_app()
