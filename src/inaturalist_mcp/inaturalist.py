@@ -1,4 +1,5 @@
 import logging
+import os
 from pathlib import Path
 from typing import Any
 
@@ -13,9 +14,8 @@ logger.info("inaturalist.py")
 
 
 class INaturalist:
-    def __init__(self, cache_path: str | Path | None = None):
-        if cache_path is None:
-            cache_path = Path.home() / ".cache" / "hishel" / "inaturalist_cache.db"
+    def __init__(self):
+        cache_path = os.environ.get("HISHEL_CACHE_PATH", Path.cwd() / "hishel_cache.db")
         storage = AsyncSqliteStorage(database_path=str(cache_path))
         self._client = AsyncCacheClient(storage=storage, timeout=30)
 

@@ -14,6 +14,7 @@ ENV UV_LINK_MODE=copy
 ENV UV_TOOL_BIN_DIR=/usr/local/bin
 
 ENV PATH="/app/.venv/bin:$PATH"
+ENV HISHEL_CACHE_PATH=/data/hishel_cache.db
 
 WORKDIR /app
 
