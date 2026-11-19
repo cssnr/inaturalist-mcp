@@ -4,7 +4,6 @@
 [![Image Size](https://badges.cssnr.com/ghcr/size/cssnr/inaturalist-mcp)](https://github.com/cssnr/inaturalist-mcp/pkgs/container/inaturalist-mcp)
 [![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/inaturalist-mcp/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/inaturalist-mcp/)
 [![Workflow Build](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/build.yaml?logo=norton&logoColor=white&label=build)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/build.yaml)
-[![Workflow Deploy](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/deploy.yaml?logo=norton&logoColor=white&label=deploy)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/deploy.yaml)
 [![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/inaturalist-mcp/release.yaml?logo=norton&logoColor=white&label=release)](https://github.com/cssnr/inaturalist-mcp/actions/workflows/release.yaml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/inaturalist-mcp?logo=listenhub&label=updated)](https://github.com/cssnr/inaturalist-mcp/pulse)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/inaturalist-mcp?logo=buffer&label=repo%20size)](https://github.com/cssnr/inaturalist-mcp?tab=readme-ov-file#readme)
@@ -131,7 +130,7 @@ Note: Set the `url` to the host you are running the server on.
 
 For a Docker Swarm + Traefik example see the [docker-compose-swarm.yaml](https://github.com/cssnr/inaturalist-mcp/blob/master/docker-compose-swarm.yaml).
 
-For a Portainer Deploy workflow see the [.github/workflows/deploy.yaml](https://github.com/cssnr/inaturalist-mcp/blob/master/.github/workflows/deploy.yaml).
+The hosted instance at https://inaturalist-mcp.cssnr.com/ is deployed from [hosted-domains/docker-compose](https://github.com/hosted-domains/docker-compose/tree/main/cssnr-inaturalist-mcp) (private), not from this repository.
 
 ## Development<a id="development"></a>
 
